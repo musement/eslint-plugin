@@ -1,0 +1,2 @@
+# eslint plugin musement POC
+
