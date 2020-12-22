@@ -10,20 +10,17 @@
   "author": "eslint-plugin-musement-poc",
   "main": "lib/index.js",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "4.9.1",
-    "@typescript-eslint/parser": "4.9.1",
-    "@nuxtjs/eslint-config": "5.0.0",
-    "@nuxtjs/eslint-config-typescript": "5.0.0",
-    "@nuxtjs/eslint-module": "3.0.1",
-    "eslint-config-prettier": "7.0.0",
-    "eslint-plugin-import": "2.22.1",
+    "@typescript-eslint/eslint-plugin": "4.11.0",
+    "@typescript-eslint/parser": "4.11.0",
     "eslint-plugin-nuxt": "2.0.0",
-    "eslint-plugin-prettier": "3.2.0",
-    "eslint-plugin-vue": "7.2.0"
+    "eslint-config-prettier": "7.1.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-prettier": "3.3.0",
+    "eslint-plugin-vue": "7.3.0"
   },
   "peerDependencies": {
-    "eslint": "~7.15.0",
-    "prettier": "2.2.1"
+    "eslint": "~7.16.0",
+    "prettier": "~2.2.1"
   },
   "engines": {
     "node": ">=0.10.0"
