@@ -1,13 +1,13 @@
 {
   "name": "@musement/eslint-plugin",
   "version": "0.0.0",
-  "description": "shared eslint config for musement projects",
+  "description": "Shared eslint config for musement's projects",
   "keywords": [
     "eslint",
     "eslintplugin",
     "eslint-plugin"
   ],
-  "author": "eslint-plugin-musement-poc",
+  "author": "Przemysław Fałowski <przemyslaw.falowski@musement.com>",
   "main": "lib/index.js",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "4.11.0",
@@ -19,8 +19,8 @@
     "eslint-plugin-vue": "7.3.0"
   },
   "peerDependencies": {
-    "eslint": "~7.16.0",
-    "prettier": "~2.2.1"
+    "eslint": "^7.16.0",
+    "prettier": "^2.2.1"
   },
   "engines": {
     "node": ">=0.10.0"
