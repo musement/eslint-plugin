@@ -7,7 +7,7 @@ shared eslint config for musement projects
 You'll first need to install [ESLint](http://eslint.org) and [Prettier](https://prettier.io/):
 
 ```
-$ npm i eslint prettier --save-dev
+$ npm i eslint@7.16 prettier@2.2 --save-dev
 ```
 
 Next, install `eslint-plugin-component`:
