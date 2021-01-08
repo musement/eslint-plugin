@@ -29,18 +29,18 @@ module.exports = {
 
 ```
 
-### Component - Vue.js shared component:
+### Vue.js (TS/JS):
 ```javascript
 module.exports = {
-  extends: ["plugin:@musement/component"],
+  extends: ["plugin:@musement/vue"],
 };
 
 ```
 
-### Orchestrator - Nuxt.js orchestrator:
+### Nuxt.js (TS/JS):
 ```javascript
 module.exports = {
-  extends: ["plugin:@musement/orchestrator"],
+  extends: ["plugin:@musement/nuxt"],
 };
 
 ```
