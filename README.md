@@ -45,6 +45,20 @@ module.exports = {
 
 ```
 
+## Visual Studio Code
+
+VSCode developers can add these settings to the project's settings (`.vscode/settings.json`) to use this plugin correctly and to avoid conflicts with other user's settings:
+
+```javascript
+{
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
+
+```
+
 
 
 
