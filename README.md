@@ -59,6 +59,14 @@ VSCode developers can add these settings to the project's settings (`.vscode/set
 
 ```
 
+### React (TS/JS):
+```javascript
+module.exports = {
+  extends: ["plugin:@musement/react"],
+};
+
+```
+
 
 
 
