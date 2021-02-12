@@ -13,7 +13,7 @@ $ npm i eslint@7.16 prettier@2.2 --save-dev
 Next, install `eslint-plugin-component`:
 
 ```
-$ npm install git+ssh://git@gitlab.com:musement/frontend-shared/tech-friday/eslint-plugin-musement-poc.git --save-dev
+$ npm install @musement/eslint-plugin --save-dev
 ```
 
 
@@ -45,6 +45,14 @@ module.exports = {
 
 ```
 
+### React (TS/JS):
+```javascript
+module.exports = {
+  extends: ["plugin:@musement/react"],
+};
+
+```
+
 ## Visual Studio Code
 
 VSCode developers can add these settings to the project's settings (`.vscode/settings.json`) to use this plugin correctly and to avoid conflicts with other user's settings:
@@ -59,13 +67,7 @@ VSCode developers can add these settings to the project's settings (`.vscode/set
 
 ```
 
-### React (TS/JS):
-```javascript
-module.exports = {
-  extends: ["plugin:@musement/react"],
-};
 
-```
 
 
 
