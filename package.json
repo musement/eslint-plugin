@@ -10,7 +10,11 @@
   "scripts": {
     "release": "standard-version -a"
   },
-  "author": "Przemysław Fałowski <przemyslaw.falowski@musement.com>",
+  "author": "Musement",
+  "contributors": [
+    "Przemysław Fałowski <przemyslaw.falowski@musement.com>",
+    "Marco Ziliani <marco.ziliani@musement.com>"
+  ],
   "main": "lib/index.js",
   "repository": {
     "type": "git",
