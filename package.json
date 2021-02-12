@@ -1,6 +1,6 @@
 {
   "name": "@musement/eslint-plugin",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Shared eslint config for musement's projects",
   "keywords": [
     "eslint",
@@ -12,6 +12,13 @@
   },
   "author": "Przemysław Fałowski <przemyslaw.falowski@musement.com>",
   "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/musement/eslint-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/musement/eslint-plugin/issues"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "~4.14.2",
     "@typescript-eslint/parser": "~4.14.2",
