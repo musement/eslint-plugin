@@ -19,38 +19,72 @@ $ npm install @musement/eslint-plugin --save-dev
 
 ## Usage
 
-Add `plugin:@musement/SELECTED_CONFIG` to the extends section of your `.eslintrc` configuration file.
+Add `plugin:@musement/SELECTED_CONFIG` to the extends section of your `.eslintrc.*` configuration file.
 
-### Library - TS/JS library:
-```javascript
-module.exports = {
-  extends: ["plugin:@musement/library"],
-};
+### Library (TS/JS):
+```json
+{
+  "extends": ["plugin:@musement/library"]
+}
 
 ```
 
 ### Vue.js (TS/JS):
-```javascript
-module.exports = {
-  extends: ["plugin:@musement/vue"],
-};
-
+```json
+{
+  "extends": ["plugin:@musement/vue"]
+}
 ```
 
 ### Nuxt.js (TS/JS):
-```javascript
-module.exports = {
-  extends: ["plugin:@musement/nuxt"],
-};
+```json
+{
+  "extends": ["plugin:@musement/nuxt"]
+}
+```
 
+If your app supports Server Side Rendering (`ssr: true` in nuxt.config.js), enable `node` environment.
+
+```json
+{
+  "extends": [
+    "plugin:@musement/nuxt"
+  ],
+  "env": {
+    "browser": true,
+    "node": true
+  }
+}
+```
+
+If your app implements custom server middleware, you can disable `browser` environment for that directory by using override option.
+
+```json
+{
+  "extends": [
+    "plugin:@musement/nuxt"
+  ],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "overrides": [
+    {
+      "files": ["server-middleware/**"],
+      "env": {
+        "browser": false,
+        "node": true
+      }
+    }
+  ]
+}
 ```
 
 ### React (TS/JS):
-```javascript
-module.exports = {
-  extends: ["plugin:@musement/react"],
-};
-
+```json
+{
+  "extends": ["plugin:@musement/react"]
+}
 ```
 
 ## Visual Studio Code
