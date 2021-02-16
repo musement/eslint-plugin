@@ -10,7 +10,7 @@ You'll first need to install [ESLint](http://eslint.org) and [Prettier](https://
 $ npm i eslint@7.16 prettier@2.2 --save-dev
 ```
 
-Next, install `eslint-plugin-component`:
+Next, install `@musement/eslint-plugin`:
 
 ```
 $ npm install @musement/eslint-plugin --save-dev
