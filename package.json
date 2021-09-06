@@ -13,7 +13,8 @@
   "author": "Musement",
   "contributors": [
     "Przemysław Fałowski <przemyslaw.falowski@musement.com>",
-    "Marco Ziliani <marco.ziliani@musement.com>"
+    "Marco Ziliani <marco.ziliani@musement.com>",
+    "Aurélien Lair <aurelien.lair@musement.com>"
   ],
   "main": "lib/index.js",
   "repository": {
@@ -26,6 +27,7 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "~4.17.0",
     "@typescript-eslint/parser": "~4.17.0",
+    "eslint-plugin-promise": "5.1.0",
     "eslint-config-prettier": "~7.2.0",
     "eslint-plugin-import": "~2.22.1",
     "eslint-plugin-nuxt": "~2.0.0",
