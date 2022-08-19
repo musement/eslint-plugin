@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/musement/eslint-plugin/compare/v1.0.1...v2.0.0) (2022-08-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* update @typescript-eslint dependencies to v5
+
+### Features
+
+* update [@typescript-eslint](https://github.com/typescript-eslint) dependencies to v5 ([69cbecd](https://github.com/musement/eslint-plugin/commit/69cbecd1b0db72da435ed8407a39a736cd5450e7))
+
 ### [1.0.1](https://github.com/musement/eslint-plugin/compare/v1.0.0...v1.0.1) (2021-03-11)
 
 ## 1.0.0 (2021-02-12)
