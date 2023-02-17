@@ -36,6 +36,13 @@ Add `plugin:@musement/SELECTED_CONFIG` to the extends section of your `.eslintrc
 }
 ```
 
+### Nuxt 3 (TS):
+```json
+{
+  "extends": ["plugin:@musement/nuxt3"]
+}
+```
+
 ### Nuxt.js (TS/JS):
 ```json
 {
