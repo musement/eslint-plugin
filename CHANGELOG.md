@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/musement/eslint-plugin/compare/v2.0.1...v3.0.0) (2023-02-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* update eslint to version 8
+
+### Features
+
+* add config for nuxt 3 ([3022fa4](https://github.com/musement/eslint-plugin/commit/3022fa495efaa7e64bb369b575ed6bcfc311cfa6))
+
+
+* update eslint to version 8 ([de0b371](https://github.com/musement/eslint-plugin/commit/de0b3719f071522f3b3474f1028846d01d9e65f3))
+
 ### [2.0.1](https://github.com/musement/eslint-plugin/compare/v2.0.0...v2.0.1) (2023-02-03)
 
 ## [2.0.0](https://github.com/musement/eslint-plugin/compare/v1.0.1...v2.0.0) (2022-08-19)
