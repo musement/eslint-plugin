@@ -24,6 +24,7 @@
     "url": "https://github.com/musement/eslint-plugin/issues"
   },
   "dependencies": {
+    "@nuxt/eslint-config": "^0.1.1",
     "@typescript-eslint/eslint-plugin": "^5.9.0",
     "@typescript-eslint/parser": "^5.9.0",
     "eslint-config-prettier": "^8.6.0",
