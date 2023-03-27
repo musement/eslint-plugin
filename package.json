@@ -12,8 +12,9 @@
   },
   "author": "Musement",
   "contributors": [
-    "Przemysław Fałowski <przemyslaw.falowski@musement.com>",
-    "Marco Ziliani <marco.ziliani@musement.com>"
+    "Przemysław Fałowski",
+    "Marco Ziliani <marco.ziliani@musement.com>",
+    "Gabriele Fazio <gabriele.fazio@musement.com>"
   ],
   "main": "lib/index.js",
   "repository": {
@@ -51,7 +52,8 @@
     }
   },
   "engines": {
-    "node": ">=0.10.0"
+    "npm": ">=7.0.0",
+    "node": ">=16.0.0"
   },
   "license": "ISC"
 }
